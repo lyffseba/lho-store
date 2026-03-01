@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./layout/*.liquid",
     "./templates/*.liquid",
+    "./templates/*.json",
     "./sections/*.liquid",
     "./snippets/*.liquid",
     "./src/js/**/*.js"
@@ -11,10 +12,15 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          dark: '#1a1a1a',
-          light: '#f5f5f5',
-          accent: '#e63946'
+          dark: '#111111',       // High contrast black (Uniqlo)
+          light: '#F4F4F5',      // Minimalist grey-white (Futuristic)
+          primary: '#E63946',    // Bold Red (Lindo Hogar / Normal)
+          secondary: '#FFB703',  // Colombian Warm Yellow (Cozy)
+          accent: '#06D6A0'      // Vibrant Cyan/Green (Agile/Normal)
         }
+      },
+      fontFamily: {
+        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       }
     },
   },
