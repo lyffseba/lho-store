@@ -8,7 +8,7 @@ This repository contains the source code, theme configurations, and assets for t
 - Logistics: Envía / Coordinadora
 
 ## Roadmap
-- [ ] Receive Top 3 SKUs from warehouse
-- [ ] Configure Shopify basic shell
+- [x] Scraped IG for mock SKUs
+- [ ] Configure Shopify basic shell (Mock SKUs: Gimnasio Bebé, Lencería Cama, Set Cocina)
 - [ ] Upload SKU assets (photos, prices)
 - [ ] Configure payment and shipping integrations
