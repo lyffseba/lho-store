@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom LHO Styles */
+.btn-primary {
+  @apply bg-brand-accent text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-red-700 transition duration-300;
+}
